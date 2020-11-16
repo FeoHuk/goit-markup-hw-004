@@ -1,17 +1,9 @@
-body{
-         background-color: rgb(241, 240, 247);
-         color: rgb(11, 4, 51);
-     }
-}
-header {
-    display: block;
-} 
 :root {
-  --primery-text-color: #5011e2;
-  --tittle-text-color: #0c0101;
-  --accent-white-color: #f3ecec;
-  --backgr-color-botton: #7e7d83;
-  --accent-button-color: #1d78c2;
+  --primery-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-white-color: #ffffff;
+  --backgr-color-botton: #f5f4fa;
+  --accent-button-color: #2196f3;
 }
 
 ul {
@@ -23,7 +15,7 @@ a {
 }
 
 body {
-  background-color: #f7f3f3;
+  background-color: #ffffff;
   color: var(--tittle-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -45,7 +37,7 @@ a {
 }
 
 .studio-logo {
-  color: #1f1c1c;
+  color: #000000;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -82,7 +74,7 @@ a {
 }
 
 .section-hero {
-  background-color: #0f0f11;
+  background-color: #2f303a;
   color: var(--accent-white-color);
 }
 
@@ -94,7 +86,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #b4a9a9;
+  color: #ffffff;
 }
 
 .features-tittle {
@@ -144,7 +136,7 @@ a {
 .button:hover,
 .button:focus {
   background-color: var(--accent-button-color);
-  color: #ebd9d9;
+  color: #ffffff;
 }
 
 .button-primary {
@@ -176,7 +168,7 @@ a {
 }
 
 .footer {
-  background-color: #363641;
+  background-color: #2f303a;
 }
 
 .web-footer {
@@ -212,7 +204,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(17, 13, 13, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .features-portfolio {
@@ -230,4 +222,4 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-} 
+}
